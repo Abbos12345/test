@@ -1,0 +1,85 @@
+.cat__container{
+    width: 100%;
+    height: 414px;
+    background-image: url(../../assets/img/bgc.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.cat__container > h4{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 96px;
+    padding-bottom: 20px;
+}
+
+.cat__container > p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.cat__container--btns{
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+.cat__container--btns > button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding-left: 14px;
+}
+
+.cat__container--btns > button:nth-child(1){
+    background-color: #D00022;
+    width: 233px;
+    height: 58px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.cat__container--btns > button:nth-child(2){
+    background-color: #fff;
+    width: 186px;
+    height: 58px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.cat__container--btns button div{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.cat__container--btns button:nth-child(1) div{
+    background-color: #fff;
+}
+
+.cat__container--btns button:nth-child(2) div{
+    background-color: #D00022;
+}
+
+.cat__container--btns button div svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

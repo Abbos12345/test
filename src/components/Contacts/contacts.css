@@ -1,0 +1,98 @@
+.contacts__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    height: 834px;
+    background-color: #D00022;
+}
+
+.contacts__container--top{
+    width: 1280px;
+    height: 140px;
+    color: #fff;
+    padding-left: 32px;
+}
+
+.contacts__container--top > h3{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.contacts__container--top > p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contacts__container--bottom{
+    display: flex;
+    gap: 64px;
+    width: 1280px;
+    height: 438px;
+    padding-left: 32px;
+}
+
+
+.contacts__container--bottom__content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 348px;
+    height: 438px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content > .content--logo > div{
+    width: 48px;
+    height:48px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > .content--typography{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: max-content;
+    color: #fff;
+}
+
+.content > .content--typography > h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.content > .content--typography > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.content > .content--typography > h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+.contacts__container--bottom__map{
+    width: 804px;
+    height: 438px;
+    overflow: hidden;
+}
+
